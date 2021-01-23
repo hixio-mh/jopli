@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - awesome-typescript-loader > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - grunt-webpack > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - grunt-contrib-clean > async > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > source-map-loader > async > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - webpack-livereload-plugin > portfinder > async > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > webdriverio > archiver > async > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > webpack-dev-server > portfinder > async > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
+    - '@ephox/bedrock > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2021-01-22T21:17:43.160Z'
