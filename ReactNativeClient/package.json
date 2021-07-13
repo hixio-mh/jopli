@@ -93,8 +93,8 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/runtime": "^7.6.2",
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
     "app-module-path": "^2.2.0",
     "execa": "^4.0.0",
     "fs-extra": "^8.1.0",
