@@ -16,7 +16,7 @@
     "html-minifier": "^4.0.0",
     "markdown-it": "^8.4.1",
     "md5-file": "^4.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "momentjs": "^2.0.0",
     "mustache": "^2.3.0",
     "node-fetch": "^1.7.3",
