@@ -82,7 +82,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "electron": "^8.5.2",
-    "electron-builder": "22.3.2",
+    "electron-builder": "22.11.7",
     "electron-rebuild": "^1.10.1",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
