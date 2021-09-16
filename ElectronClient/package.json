@@ -83,10 +83,10 @@
     "babel-preset-react": "^6.24.1",
     "electron": "^8.5.2",
     "electron-builder": "22.3.2",
-    "electron-rebuild": "^1.10.1",
+    "electron-rebuild": "^2.0.1",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
-    "patch-package": "^6.2.0"
+    "patch-package": "^6.2.1"
   },
   "optionalDependencies": {
     "7zip-bin-linux": "^1.0.1",
