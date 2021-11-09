@@ -51,7 +51,7 @@
     "fs-extra": "^5.0.0",
     "highlight.js": "^10.4.1",
     "html-entities": "^1.2.1",
-    "html-minifier": "^3.5.15",
+    "html-minifier": "^4.0.0",
     "htmlparser2": "^4.1.0",
     "image-data-uri": "^2.0.0",
     "image-type": "^3.0.0",
