@@ -61,7 +61,7 @@
     "jssha": "^2.3.0",
     "katex": "^0.11.1",
     "levenshtein": "^1.0.5",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.5",
     "markdown-it-deflist": "^2.0.3",
