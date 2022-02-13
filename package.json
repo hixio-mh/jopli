@@ -42,7 +42,7 @@
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "follow-redirects": "^1.11.0",
+    "follow-redirects": "^1.14.8",
     "joplin-turndown": "^4.0.27",
     "joplin-turndown-plugin-gfm": "^1.0.12",
     "relative": "^3.0.2"
