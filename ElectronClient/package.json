@@ -7,7 +7,9 @@
     "dist": "node_modules/.bin/electron-builder",
     "build": "patch-package --patch-dir ../patches && gulp build",
     "postinstall": "npm run build && gulp electronRebuild",
-    "start": "gulp build && electron . --env dev --log-level debug --no-welcome --open-dev-tools"
+    "start": "gulp build && electron . --env dev --log-level debug --no-welcome --open-dev-tools",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -81,7 +83,7 @@
     "app-builder-bin": "^1.9.11",
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
-    "electron": "^8.5.2",
+    "electron": "^16.2.0",
     "electron-builder": "22.3.2",
     "electron-rebuild": "^1.10.1",
     "glob": "^7.1.6",
@@ -127,7 +129,7 @@
     "jssha": "^2.3.1",
     "katex": "^0.11.1",
     "levenshtein": "^1.0.5",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "mark.js": "^8.11.1",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
@@ -145,7 +147,7 @@
     "md5": "^2.2.1",
     "md5-file": "^4.0.0",
     "memory-cache": "^0.2.0",
-    "mermaid": "^8.4.6",
+    "mermaid": "^8.12.0",
     "moment": "^2.22.2",
     "multiparty": "^4.2.1",
     "mustache": "^3.0.1",
@@ -184,6 +186,8 @@
     "uslug": "^1.0.4",
     "uuid": "^3.2.1",
     "valid-url": "^1.0.9",
-    "xml2js": "^0.4.19"
-  }
+    "xml2js": "^0.4.19",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
